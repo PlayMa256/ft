@@ -1,0 +1,167 @@
+body{
+	background-color: #d1e6db;
+	background-image: url('http://localhost/TFUNICAMP/imagens/modelo.png');
+	background-size:100%;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	font-family: sans-serif;
+}
+a{
+	color:#111;
+	text-decoration: none;
+}
+
+#header{
+
+}
+#content{
+	background-color: rgba(46,47,46,0.95);
+	display: block;
+	width:980px;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+#agenda{
+	width: 740px;
+	display: inline-block;
+
+}
+
+#filtro{
+	float:right;
+	color: #bac0ba;
+	font-size: 14pt;
+	display: inline-block;
+}
+
+#flechas{
+	float:right;
+	right: -225px;
+	top:200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#menu{
+	margin-top:-55px;
+	position: absolute;
+	right: -478px;
+	width: 401px;
+	float: right;
+
+}
+#menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menu ul li{
+	float:left;
+	padding:5px 7px 8px 9px;
+}
+#menu ul li a{
+	text-decoration: none;
+	color:#184b28;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+
+}
+#menu ul li a:hover{
+	text-decoration: underline;
+
+}
+
+.agenda_dia{
+	padding-bottom:20px;
+	width: 100*%;
+}
+
+.evento_data{
+	color: #39f82a;
+	font-size: 34pt;
+	display: block;
+}
+
+.evento{
+	width: auto;
+	height: 80px;
+	margin-bottom: 10px;
+	background-color: #969e95;
+}
+
+.evento .evento_hora{
+	background-color: #fff;
+	color: #007236;
+	font-size: 24pt;
+	padding: 0px 5px;
+	width:80px;
+	text-align: center;
+	height: 80px;
+	/*Atrapalha*/
+	float: left;
+}
+
+.evento .evento_dados{
+	padding: 5px 2px;
+	font-size: 12pt;
+	min-width: 90%;
+	margin-top: auto;
+	margin-bottom: auto;
+	/*Atrapalha*/
+	/*float: right;*/
+}
+
+.evento .icone_curso{
+	height: 20px;
+	width:20px;
+	margin-left: 15px;
+	margin-right: 40px;
+	float: left;
+	border-width: 0;
+}
+
+.evento .evento_descricao{
+	width:80%;
+	margin-bottom: 5px;
+}
+
+.evento_destaque{
+	background-color:  #d7d7d7;
+}
+
+.evento_destaque .evento_hora{
+	background-color: #fff200;
+	color:black;
+}
+
+#filtro span{
+	margin-top: 15px;
+}
+
+#filtro .filtro_categoria{
+	background-color: #00FF00;
+	color: black;
+	width:170px;
+	padding: 13px 5px;
+	bottom: 0px;
+	margin-bottom: 10px;
+}
+
+
+div:after,ul:after,ol:after{
+	content: ".";
+	height: 0px;
+	visibility: hidden;
+}
+
+a img{
+	border:0;
+}
+
+#flechas img{
+	width: 33px;
+	height: 33px;
+	margin-bottom: 40px;
+}

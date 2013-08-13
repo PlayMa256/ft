@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a img{
+	border: 0;
+}
+
+.clear{
+	clear: both;
+}
+#box{
+	width:980px;
+	margin: 0 auto;
+
+}
+#header{
+float: left;
+    margin-bottom: 220px;
+    position: relative;
+    z-index: 16;
+    height:70px;
+    width: 980px
+}
+#slideshow{
+float: right;
+    height: 286px;
+    margin-bottom: -297px;
+    width: 980px;
+    z-index: 0;
+}
+#slideshow ul{
+	list-style: none;
+}
+#slideshow img{
+	overflow: hidden;
+	height:286px;
+	width:980px;
+}
+
+#logo{
+	top:0;
+}
+#logo img{
+	width: 500px;
+}
+#menu{
+	margin-top:-55px;
+	position: relative;
+	width: 401px;
+	float: right;
+
+}
+#pager{
+position: relative;
+
+    top: 199px;
+    z-index: 99;
+    float: right;
+}
+#pager a{
+	background: black;
+	border:1px solid #333;
+	color:#FFF;
+	margin-left:10px;
+	width: 10px;
+	height:10px;
+}
+
+#menu ul, #footerMenu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menu ul li, #footerMenu ul li{
+	float:left;
+	padding:5px 7px 8px 9px;
+}
+#menu ul li a, #footerMenu ul li a{
+	text-decoration: none;
+	color:#1f201f;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+
+}
+#menu ul li a:hover, #footerMenu ul li a:hover{
+	text-decoration: underline;
+
+}
+
+
+/* Conteudos */
+#conteudo{
+	
+}
+#conteudo ul{
+	list-style: none;
+	margin: 0 0 0 4px;
+	padding: 0;
+
+}
+#conteudo ul li{
+	display: inline;
+	width: 309px;
+	float: left;
+	border:1px solid black;
+	padding: 5px;
+	margin-right: 3px;
+
+}
+
+#patrocinio{
+background: none repeat scroll 0 0 #252525;
+    height: 196px;
+    margin-top: 10px;
+}
+#patrocinio h1{
+	font-size: 25px;
+	color:#FFF;
+	padding: 2px 0px 0px 9px;
+}
+
+
+/*Footer*/
+#footer{
+	background-color:#337446;
+	height: 80px;
+}
+#footerMenu{
+	margin-top:25px;
+	position: relative;
+	right: 60px;
+	float: right;
+}
+#logoMenu{
+	width: 500px;
+	float: left;
+	margin-top: 10px;
+}
+
+/* PROGRAMACAO */
+
+body.programacao{
+	background-color: #d1e6db;
+	background-image: url('http://localhost/TFUNICAMP/imagens/modelo.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+}
