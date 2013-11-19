@@ -1,0 +1,585 @@
+/*
+Theme Name: FT
+Theme URI: http://www.ft.unicamp.br/IVencontrotecnologia
+Author:André Matuliones dos Santos /  Matheus Gonçalves da Silva
+Description: Tema utilizado no site da TF  da FT Unicamp
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: privado
+Tema utilizado dentor do site da TF da FT na unicamp.
+*/
+body{ background-color: #d1e6db; background-image: url('http://www.ft.unicamp.br/IVtecnologiaemfoco/wp-content/themes/Meutema/imagens/modelo.png'); background-size:100%; background-attachment: fixed; background-repeat:no-repeat; font-family: Arial, "Trebuchet MS", sans-serif; }
+*{margin: 0;padding: 0;}
+a img{
+    border: 0;
+}
+.clear{
+    clear: both;
+}
+#box{
+    width:1024px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+#header{
+    float: left;
+    margin-bottom: 230px;
+    position: relative;
+    z-index: 16;
+    height:70px;
+    width: 1024px
+}
+#slideshow{
+    float: right;
+    height: 286px;
+    margin-bottom: -297px;
+    width: 1024px;
+    z-index: 0;
+}
+#slideshow ul{
+    list-style: none;
+}
+#slideshow img{
+    overflow: hidden;
+    height:286px;
+    width:1024px;
+}
+#logo{
+    top:0;
+    background-color: rgba(255,255,255,.4);
+}
+#logo img{
+    width: 500px;
+}
+#menu{
+    margin-top:-55px;
+    position: relative;
+    width: 401px;
+    float: right;
+}
+#pager{
+    position: relative;
+    top: 190px;
+    z-index: 99;
+    float: right;
+}
+#pager a{
+    background: black;
+    border:1px solid #333;
+    color:#FFF;
+    margin-left:10px;
+    width: 31px;
+    height:31px;
+    padding: 3px 8px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+#pager a:hover{
+    text-decoration: underline;
+}
+#pager .cycle-pager-active{
+    color:#369e4b;
+}
+.prevControl, .nextControl{
+    position: relative;
+    top:-104px;
+    z-index: 999;
+}
+.nextControl{
+    right:-241px;
+    z-index: 999;
+}
+.prevControl{
+    right:-7px;
+    z-index: 999;
+}
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu{ width: 401px; }
+.menu ul{ list-style: none;  padding: 0; margin: 0; }
+.menu ul li{ float:left; padding:5px 7px 8px 9px; }
+.menu ul li a{ text-decoration: none; color:#184b28; font-family: "Trebuchet MS"; font-weight: bold; }
+.menu ul li a:hover{ text-decoration: underline; }
+#menu ul li{
+    float:left;
+    padding:5px 7px 8px 9px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color:#1f201f;
+    font-weight: bold;
+}
+#menu ul li a:hover{
+    text-decoration: underline;
+}
+#botao{
+    position: relative;
+    margin: -45px auto 20px auto;
+    padding: 2px 0px 2px 8px;
+    background-color: #00a651;
+    width: 140px;
+    text-align: center;
+    font-size: 18px;
+
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+    top: 244px;
+
+    /*efeito 3D*/
+    border-left-color: rgba(255,255,255,0.3);
+    border-top-color: rgba(255,255,255,0.5);
+    border-right-color: rgba(0,0,0,0.5);
+    border-bottom-color: rgba(0,0,0,0.5);
+}
+.inscricao{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+.inscricao:hover{
+    text-decoration: underline;
+}
+/* Conteudos */
+#content{
+    margin-bottom:-10px;
+}
+#conteudo ul{
+    list-style: none;
+    margin: 0 0 0 4px;
+    padding: 0;
+    float:left;
+}
+
+#conteudo ul li h1 {
+    font-size: 20px;
+    color: #246A3A;
+}
+#conteudo ul li{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    width: 320px;
+}
+#conteudo ul li #outrasAtividades a{
+    color: #26983C;
+    text-decoration: none;
+}
+#outrasAtividades p{
+    overflow:hidden;
+}
+#conteudo ul li #outrasAtividades a:hover{
+    text-decoration:underline;
+}
+#conteudo #sobre {
+    font-size: 16px;
+    text-align: justify;
+}
+#noticias{
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+#noticias p{
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+#noticias a{
+    text-decoration: none;
+    color:#26983c;
+}
+#noticia p a{
+    text-decoration: none;
+    color:#26983c;
+}
+#noticia a:hover{
+    text-decoration: underline;
+}
+#noticias a:hover{
+	text-decoration:underline;
+}
+#botoes{
+    margin-top:5px;
+}
+.moreNoticias{
+    background: none repeat scroll 0 0 #363636;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 112px;
+}
+.moreNoticias:hover, .leiaMais:hover{
+    text-decoration: underline;
+}
+.leiaMais{
+    background: none repeat scroll 0 0 #184B28;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 133px;
+}
+.AcessarGaleria{
+    background: none repeat scroll 0 0 #184B28;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 133px;
+    margin-left: 10px; 
+}
+#btncomissao{
+    width:80px;
+    height:20px;
+}
+#patrocinio{
+    height: auto;
+    margin-top: 10px;
+    padding-bottom:10px;
+    background-color: rgba(0,0,0,.1);
+}
+#patrocinio h1, #comissao h1{
+    font-size: 25px;
+    color:#246A3A;
+    padding: 2px 0px 0px 9px;
+}
+#comissao a{
+    color: #26983C;
+    text-decoration: none;
+}
+#noticias p a{
+    color: #26983C;
+    text-decoration: none;
+}
+#comissao a:hover{
+    color: #26983C;
+    text-decoration: underline;
+}
+/*Footer*/
+#footer{ background-color: #337446; position: absolute; margin: 0px; width:100%; margin-left:-0.6%; }
+#social{ float:left; margin-left: 65px; }
+#menufooter{ overflow: hidden; float:left; margin-top: 25px; margin-left:350px; width:auto; }
+#menufooter li a{ color: #1f201f; }
+#social table{ text-align: center; }
+.social{ width:35px; padding: 0 5px 0 5px; font-size: 8pt; font-weight: bold; color:#fff; margin: 0 auto 0 auto; }
+/*POSTS*/
+#post{
+padding-bottom: 10px;
+    margin-left: 10px;
+    width: 1006px;
+}
+#post .titulo{
+    font-size:25px;
+    font-weight: bold;
+}
+#post p{
+    text-align: justify;
+    font-size:16px;
+    margin-top:5px;
+}
+#post ul{
+    margin-left:17px;
+    margin-top:5px;
+}
+#post ol{
+    margin-left:23px;
+    margin-top:5px;
+}
+#post a{
+    text-decoration: none;
+    color:#26983c;
+}
+#post a:hover{
+    text-decoration: underline;
+}
+#post h1{
+    font-size:23px;
+}
+#post h2{
+    font-size: 18px;
+}
+
+/*Pagina padrao de noticias*/
+#page{
+        float: left;
+    margin-bottom: 14px;
+}
+#noticia{
+float: left;
+    margin-bottom: 11px;
+    padding: 0 0 0 10px;
+    width: 1000px;
+}
+#noticia .titulo{
+    font-size:20px;
+    font-weight: bold;
+}
+#noticia p{
+    text-align: justify;
+    font-size:16px;
+    margin-top:5px;
+margin-bottom: 12px;
+}
+.PageleiaMais{
+ background: none repeat scroll 0 0 #184B28;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 133px;
+    margin-top: -3px;
+}
+#patrocinio ul{
+    margin: 5px 5px 10px 5px;
+    padding: 0;
+    list-style: none;
+}
+#patrocinio ul li{
+    display: inline;
+    margin-right: 20px;
+}
+#patrocinio ul li img{
+    width: 103px;
+
+}
+
+/*********************JCYCLE 2************************************************************************/
+/*
+    these are just the default styles used in the Cycle2 demo pages.  
+    you can use these styles or any others that you wish.
+*/
+
+
+/* set border-box so that percents can be used for width, padding, etc (personal preference) */
+.cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+.cycle-slideshow { width: 280px; height:170px; min-width: 200px; max-width: 500px; margin: 10px auto; padding: 0; position: relative;
+    background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
+
+ }
+
+/* slideshow images (for most of the demos, these are the actual "slides") */
+.cycle-slideshow img { 
+    /* 
+    some of these styles will be set by the plugin (by default) but setting them here
+    helps avoid flash-of-unstyled-content
+    */
+    position: absolute; top: 0; left: 0;
+    width: 100%; padding: 0; display: block;
+}
+
+/* in case script does not load */
+.cycle-slideshow img:first-child {
+    position: static; z-index: 100;
+}
+
+/* pager */
+.cycle-pager { 
+    text-align: center; width: 100%; z-index: 500; position: absolute; top: 10px; overflow: hidden;
+}
+.cycle-pager span { 
+    font-family: arial; font-size: 50px; width: 16px; height: 16px; 
+    display: inline-block; color: #ddd; cursor: pointer; 
+}
+.cycle-pager span.cycle-pager-active { color: #D69746;}
+.cycle-pager > * { cursor: pointer;}
+
+
+/* caption */
+.cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
+
+
+/* overlay */
+.cycle-overlay { 
+    font-family: tahoma, arial;
+    position: absolute; bottom: 0; width: 100%; z-index: 600;
+    background: black; color: white; padding: 15px; opacity: .5;
+}
+
+
+/* prev / next links */
+.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
+.cycle-prev { left: 0;  background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;}
+.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+
+.disabled { opacity: .5; filter:alpha(opacity=50); }
+
+
+/* display paused text on top of paused slideshow */
+.cycle-paused:after {
+    content: 'Paused'; color: white; background: black; padding: 10px;
+    z-index: 500; position: absolute; top: 10px; right: 10px;
+    border-radius: 10px;
+    opacity: .5; filter: alpha(opacity=50);
+}
+
+/* 
+    media queries 
+    some style overrides to make things more pleasant on mobile devices
+*/
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .cycle-slideshow { width: 200px;}
+    .cycle-overlay { padding: 4px }
+    .cycle-caption { bottom: 4px; right: 4px }
+}
+/*
+    these are just the default styles used in the Cycle2 demo pages.  
+    you can use these styles or any others that you wish.
+*/
+/* set border-box so that percents can be used for width, padding, etc (personal preference) */
+.cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.cycle-slideshow { background: url("http://malsup.github.com/images/spinner.gif") no-repeat scroll 50% 50% transparent;
+    height: 170px;
+    margin: 10px auto;
+    max-width: 500px;
+    min-width: 200px;
+    padding: 0;
+    position: relative;
+    width: 260px;
+
+ }
+/* slideshow images (for most of the demos, these are the actual "slides") */
+.cycle-slideshow img { 
+    /* 
+    some of these styles will be set by the plugin (by default) but setting them here
+    helps avoid flash-of-unstyled-content
+    */
+    position: absolute; top: 0; left: 0;
+    width: 260px; height: 170px; padding: 0; display: block;
+}
+/* in case script does not load */
+.cycle-slideshow img:first-child {
+    position: static; z-index: 100;
+}
+/* pager */
+.cycle-pager { 
+    text-align: center; width: 100%; z-index: 500; position: absolute; top: 10px; overflow: hidden;
+}
+.cycle-pager span { 
+    font-family: arial; font-size: 50px; width: 16px; height: 16px; 
+    display: inline-block; color: #ddd; cursor: pointer; 
+}
+.cycle-pager span.cycle-pager-active { color: #D69746;}
+.cycle-pager > * { cursor: pointer;}
+/* caption */
+.cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
+/* overlay */
+.cycle-overlay { 
+    font-family: tahoma, arial;
+    position: absolute; bottom: 0; width: 100%; z-index: 600;
+    background: black; color: white; padding: 15px; opacity: .5;
+}
+/* prev / next links */
+.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
+.cycle-prev { left: 0;  background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;}
+.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+.disabled { opacity: .5; filter:alpha(opacity=50); }
+/* display paused text on top of paused slideshow */
+.cycle-paused:after {
+    content: 'Paused'; color: white; background: black; padding: 10px;
+    z-index: 500; position: absolute; top: 10px; right: 10px;
+    border-radius: 10px;
+    opacity: .5; filter: alpha(opacity=50);
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .cycle-slideshow { width: 200px;}
+    .cycle-overlay { padding: 4px }
+    .cycle-caption { bottom: 4px; right: 4px }
+}
+/*********************FIM JCYCLE 2************************************************************************/
+/*********************GALERIA************************************************************************/
+#galeria{
+    width: 1024px;
+}
+#galeria ul{
+    list-style: none;
+    margin:0px;
+}
+#galeria ul li{
+    display: inline;
+    margin-right:66px;
+}
+#galeria ul li img{
+    margin-top:10px;
+
+}
+/*********************GALERIA************************************************************************/
+.paginacao {
+    float:left; margin:5px 0;
+    margin-top:10px;
+}
+.paginacao a{
+ background: none repeat scroll 0 0 black;
+    border: 1px solid #333333;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 9px;
+    margin-left: 3px;
+    padding: 2px 5px;
+    text-decoration: none;
+    width: 31px;
+}
+.paginacao a:hover{background:#337446;}
+
+
+/*Paginacao*/
+.paginator {float:right; margin: 5px 14px 5px 0;}
+.paginator ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+.paginator ul li{
+	display:inline;
+}
+.paginator a, .extend{
+ background: none repeat scroll 0 0 black;
+    border: 1px solid #333333;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 9px;
+    margin-left: 3px;
+    padding: 2px 5px;
+    text-decoration: none;
+    width: 31px;
+}
+.paginator a:hover, .extend:hover{background:#337446;}
+.pages{display: none;}
+.current{
+ background: none repeat scroll 0 0 black;
+    border: 1px solid #333333;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 9px;
+    margin-left: 3px;
+    padding: 2px 5px;
+    text-decoration: none;
+    width: 31px;
+}
+.nextpostslink{
+    display: none;
+}

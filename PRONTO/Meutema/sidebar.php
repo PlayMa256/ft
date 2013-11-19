@@ -1,0 +1,1 @@
+<?php dinamic_sidebar();?>
